@@ -109,3 +109,32 @@ footer {
 .login-container button:hover {
     background-color: #b37a00;
 }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.body-fac{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #4f20cf;
+}
+.h2-fac {
+    font-size: 30px; /* Un poco más grande para mayor visibilidad */
+    font-weight: 600;
+    color: #2a44da;
+    text-align: center; /* Centrado para que quede centrado sobre el formulario */
+    margin-bottom: 20px; /* Espacio entre el título y el formulario */
+}
+.border{
+    color: #07060a;
+}
+.col-md-5{
+    margin: 20px;
+}
+
